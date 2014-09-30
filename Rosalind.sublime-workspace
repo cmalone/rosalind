@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"__instruction",
+				"__instruction_pointer"
+			],
+			[
+				"__in",
+				"__instruction_pointer"
+			],
+			[
+				"instr",
+				"instruction_pointer"
+			],
+			[
+				"inst",
+				"instruction_pointer"
+			],
+			[
+				"instru",
+				"instruction_memory"
+			],
+			[
+				"p_do",
+				"p_dominant_chosen"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"prof",
+				"profile_counts"
+			],
+			[
+				"rol",
+				"rolling_bra"
+			],
+			[
+				"hash",
+				"hash_value"
+			],
+			[
+				"has",
+				"hash_base"
+			],
+			[
+				"enco",
+				"encode_protein"
+			],
+			[
 				"Co",
 				"CosmosPatternForSupplyForecasting"
 			],
@@ -88,10 +136,26 @@
 	"buffers":
 	[
 		{
-			"file": "iprb.py",
+			"file": "grph.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cons.py",
+			"settings":
+			{
+				"buffer_size": 1274,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fasta.py",
+			"settings":
+			{
+				"buffer_size": 755,
 				"line_ending": "Windows"
 			}
 		}
@@ -99,9 +163,77 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"power",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add Current File"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -113,10 +245,6 @@
 			[
 				"disc",
 				"Package Control: Discover Packages"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"tab",
@@ -136,10 +264,6 @@
 			],
 			[
 				"",
-				"ANF: Rename File"
-			],
-			[
-				"ren",
 				"ANF: Rename File"
 			],
 			[
@@ -202,6 +326,8 @@
 		"height": 126.0,
 		"history":
 		[
+			"git commit .",
+			"git commit",
 			"pwd()",
 			"pwd",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -216,8 +342,56 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/cianm/Documents/GitHub/rosalind"
+	],
 	"file_history":
 	[
+		"/C/Users/cianm/Documents/GitHub/rosalind/bf.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/fib.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/grph_dataset.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/grph_test.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/mult.bf",
+		"/C/Users/cianm/Documents/GitHub/rosalind/test.bf",
+		"/C/Users/cianm/Documents/GitHub/rosalind/iprb.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/dna.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/cons.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/grph.py",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAv-Test-Ch1d/Environment.ini",
+		"/E/SearchGold/AutopilotService/Co3/AdsDisplayMarketPlaceSFC-Prod-Co3/Environment.ini",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-PPE-Ch1d/Environment.ini",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Prod-Ch1d/Environment.ini",
+		"/C/Users/cianm/Documents/GitHub/rosalind/fibd.py",
+		"/C/DailyFlighted/DailyFlighted.ps1",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/Environment.ini",
+		"/C/Users/cianm/Documents/GitHub/rosalind/test_profile_2.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/test_profile.txt",
+		"/C/Users/cianm/Downloads/rosalind_cons (1).txt",
+		"/C/Users/cianm/Downloads/rosalind_cons.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/test_profile.ext",
+		"/C/Users/cianm/Documents/GitHub/rosalind/gc.py",
+		"/C/Users/cianm/Downloads/rosalind_fib.txt",
+		"/C/Users/cianm/Downloads/rosalind_fib (1).txt",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/deployment.ini",
+		"/E/SearchGold/AutopilotService/Co3/AdsDisplayMarketPlace-Prod-Co3/deployment.ini",
+		"//Asgdrops/displaymp/DisplayMarketplace/rolling/7.07.1.3006163/retail/amd64/SupplyForecastingServiceMap.ini",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAllocation-Test-Ch1d/deployment.ini",
+		"/E/Enlistment/DisplayMarketplace/target/distrib/debug/amd64/SupplyForecastingServiceMap.ini",
+		"/C/Users/cianm/Downloads/rosalind_prtm.txt",
+		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/machines.csv",
+		"/C/Users/cianm/Documents/GitHub/rosalind/prtm.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/Rosalind.sublime-project",
+		"/C/Users/cianm/Downloads/rosalind_grph (2).txt",
+		"/C/Users/cianm/Downloads/rosalind_grph.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/test_records.txt",
+		"/C/Users/cianm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/cianm/Downloads/rosalind_grph (1).txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/ini6.py",
+		"/C/Users/cianm/Downloads/rosalind_subs.txt",
+		"/C/Users/cianm/Documents/GitHub/rosalind/prot.py",
+		"/C/Users/cianm/Documents/GitHub/rosalind/subs.py",
+		"/C/Users/cianm/Downloads/rosalind_prot.txt",
 		"/C/Users/cianm/Documents/SublimeProjects/Rosalind/ini6.py",
 		"/C/Users/cianm/Documents/SublimeProjects/Rosalind/gc.py",
 		"/C/Users/cianm/Documents/SublimeProjects/Rosalind/hamm.py",
@@ -253,22 +427,16 @@
 		"/C/Users/cianm/Downloads/rosalind_ini3.txt",
 		"/E/Enlistment/DisplayMarketplace/target/distrib/debug/amd64/AutopilotServiceMap.ini",
 		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAv-PPE-Ch1d/deployment.ini",
-		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/deployment.ini",
 		"/E/SearchGold/AutopilotService/Co3/AdsDisplayMarketPlace-PPE-Co3/deployment.ini",
 		"/E/Enlistment/DisplayMarketplace/target/distrib/debug/amd64/RnRServiceMap.ini",
-		"/C/Users/cianm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/cianm/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAllocation-Test-Ch1d/deployment.ini",
 		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlace-PPE-Ch1d/deployment.ini",
-		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/Environment.ini",
 		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAllocation-Test-Ch1d/Environment.ini",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingKpi/SupplyForecastingKpi.csproj",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/AdExpertVolumePredictionJob.csproj",
 		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAllocation-Test-Ch1d/machines.csv",
-		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayMarketPlaceSFC-Test-Ch1d/machines.csv",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayMarketPlaceSFC-PPE-Ch1d/Macros.ini",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingJob/SupplyForecastingJob.csproj",
-		"/E/Enlistment/DisplayMarketplace/target/distrib/debug/amd64/SupplyForecastingServiceMap.ini",
 		"/C/Users/cianm/AppData/Local/Microsoft/Windows/INetCache/IE/1DIM8PB8/SupplyForecastingServiceMap.ini",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayMarketPlaceSFC-Prod-CO3/Macros.ini",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/APPLY_OVERRIDES_TO_PREDICTIONS.script",
@@ -281,7 +449,6 @@
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingKpi/AutopilotServiceMap.ini",
 		"/E/VolPred/PseudoStrataDefinitions.txt",
 		"/E/VolPred/PseudoStrataIdMap.txt",
-		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAv-Test-Ch1d/Environment.ini",
 		"/E/SearchGold/AutopilotService/Co3/AdsDisplayRnRILAllocation-Prod-Co3/deployment.ini",
 		"/E/SearchGold/AutopilotService/Ch1d/AdsDisplayRnrILAv-Test-Ch1d/deployment.ini",
 		"/E/SearchGold/AutopilotService/Co3/AdsDisplayRnRILAllocation-Prod-Co3/access.txt",
@@ -308,44 +475,7 @@
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingCosmosComponents/SharedConstants.cs",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayRnrILAllocation-Test-Ch1d/Macros.ini",
 		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayRnrILAllocation-Prod-CO3/Macros.ini",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayRnrILAllocation-Prod-Ch1d/Macros.ini",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/DataStructureUtility.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/App.config",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/App_prod.config",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/VP_AX_COOKED_LOGS.script",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingJob/SupplyForecastingJob.template",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingJob/Start.bat",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingKpi/Start.bat",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Start.bat",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionCosmosComponents/StratumAssigner.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingJob/Program.cs",
-		"/C/Users/cianm/Documents/CudaClass/gpu-workshops/gpu-workshops/exercise_solutions/cuda/naive_transpose/naive_transpose/kernel.cu",
-		"//msr-hdp-gpu/scratch/CudaClass/users/cianm/naive_transform_output.txt",
-		"/C/Users/cianm/Documents/CudaClass/gpu-workshops/gpu-workshops/exercise_solutions/cuda/smem_transpose/smem_transpose/kernel.cu",
-		"//msr-hdp-gpu/scratch/CudaClass/users/cianm/smem_transpose_output.txt",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityDataAccess/CapacityDataAsync.csproj",
-		"//msr-hdp-gpu/scratch/CudaClass/users/cianm/output.txt",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SupplyForecastingJob/SupplyForecastingJob/CreateTagSegmentMappingStep.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityDB/SchemaObjects/Schemas/Prediction/Tables/Constraints/ErrorEstimate.ModifiedDateTime.defconst.sql",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionLibrary/ResidualError/RankTest.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionTypes/TimeSeries.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionLibrary/Smoothing/TripleExponentialTransform.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionTypes/TimeGrain.cs",
-		"/E/Enlistment/DisplayMarketplace/private/avails/InventoryService/InventoryWebServiceHost/Settings/Onebox/Macros.ini",
-		"/E/Enlistment/DisplayMarketplace/private/avails/ImpressionService/ImpressionServiceHost/Settings/AdsDisplayRnrILAv-PPE-Ch1d/Macros.ini",
-		"/E/Enlistment/DisplayMarketplace/private/avails/ImpressionService/ImpressionServiceHost/Settings/RedmondTestCluster/Macros.ini",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionLibrary/PredictionLibrary.csproj",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionFramework/Log.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityDataAccess/CapacityDataAccess.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityPredictionDataProvider/CapacityPredictionDataProvider.csproj",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Log.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionFramework/PredictionThread.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionFramework/PredictionManager.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionFramework/PredictionController.cs",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/PredictionFramework/PredictionFramework.csproj",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityDB/Properties/Capacity.Database.sqlcmdvars",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/SQL/CapacityDB/Scripts/Post-Deployment/Capacity.Script.PostDeployment.sql",
-		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionService/CapacityService.cs"
+		"/E/Enlistment/DisplayMarketplace/private/SupplyForecasting/CapacityPredictionOffline/AdExpertVolumePredictionJob/Settings/AdsDisplayRnrILAllocation-Prod-Ch1d/Macros.ini"
 	],
 	"find":
 	{
@@ -367,6 +497,46 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fasta_records",
+			"Id",
+			"strip",
+			"  0 72",
+			"self.__instructions[i]",
+			"c",
+			"instruction_pointer",
+			"instruction_memory",
+			"instruction_pointer",
+			",",
+			"**-",
+			"CpsOfflineTable",
+			"cpsOfflineTable",
+			"CpsOfflineTable",
+			"actualsColor",
+			"actualsError",
+			"actualsScopeResult",
+			"cpsActualsPath",
+			"/local/CPS/Volume_AX/VolumeActual",
+			"CPS",
+			"cps",
+			"CPS",
+			"TCTTGGGCCAGACAAACGATATGGAGGGGC",
+			"]",
+			"SupplyForecasting_06_14_2014",
+			"   ",
+			",",
+			"   ",
+			"TCTTTACGAGGCATTTTTCGTGCACCACATCCTAATACAGTAAGCGTGTTCCAGGTCCAA\nCTCTCTTTTGGAGGTCTACCGAAT",
+			"CGACTAAGTGTAACTCTAATCAAGCATTAGGCTGCGTAACGGGACGAGATTTCCTCCTTT\nTACTACATAGGCGCGTTTCTGCGGACGGCGCTCTTAC",
+			"GTCGACACCGCGACGGGGTCTTTCATCGAGTTAGGATGACTGTTACAACAATCTGCCGTC\nACTAGGCCGTTTGAGGGGTTAG",
+			"TGCCTCAAGTTACCATTGTTGCTCTACTCCACTGGGCCGAGCACCGGCTTCCGACTAGGA\nGGATTCGTGACTTCTAGACGTGCGCAGGAACCCCAA",
+			"TTTCGTAAAGACGCGTTGTAAGCCCGCTTACTTTCGTCGAGCTCCCTGCCTCGTGACCCG\nTGAAACGGGATAGCGTAAATC",
+			"GAGTGCTAATCTGTACGACGATTAGCCGAGGTCAATATGGTCGGTATTAAAAGCTACCCG\nGACGCATTGAAGATCCCTCCTAACTGCTGATTGCTTTCAA",
+			"AGAGTGTAATTTCGAACAGAGCCTCTCGACACACAGTTTAAATCGACCTTGCGGGACAGC\nTAGCAGTGTAAATGTTCTCGGTAAATCGG",
+			"TACGGGATATAAGGTGGACTGTCCGTGTAACGACGCTGGTTGGCGACTAGTTTTTACGCT\nGGGCGAAGATGCAATACTCTTT",
+			"ACCACCGCCGGTATTTGCCGCGGCCTTCGGTGCGCCCAGTGCTCTGGACCTGCTTCTTAT\nCAATCCCCCTTATTCGCATAGAATGGGTCTATAGTCAG",
+			"   ",
+			"U",
+			"UUU",
 			"line",
 			"AdsDisplayRnrILAllocation-Test-Ch1d",
 			"SupplyForecastingJob",
@@ -454,21 +624,7 @@
 			",",
 			",,",
 			",",
-			"1000003463",
-			"15001",
-			"select",
-			" ",
-			"string",
-			"Run",
-			"Import",
-			"Imp",
-			"Import",
-			"IMPRESSIONS",
-			"outputRow",
-			"otuputRow",
-			"Include",
-			"Freq",
-			"System"
+			"1000003463"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -486,24 +642,82 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "iprb.py",
+					"file": "grph.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cons.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fasta.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
 							]
 						],
 						"settings":
@@ -514,7 +728,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -559,6 +773,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 100.0
+	},
 	"project": "Rosalind.sublime-project",
 	"replace":
 	{
@@ -570,6 +788,50 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"fasta",
+				"fasta.py"
+			],
+			[
+				"bf",
+				"bf.py"
+			],
+			[
+				"mu",
+				"mult.bf"
+			],
+			[
+				"",
+				"grph.py"
+			],
+			[
+				"dna",
+				"dna.py"
+			],
+			[
+				"fib",
+				"fib.py"
+			],
+			[
+				"cons",
+				"cons.py"
+			],
+			[
+				"iprb",
+				"iprb.py"
+			],
+			[
+				"gr",
+				"grph.py"
+			],
+			[
+				"test",
+				"test_profile.ext"
+			],
+			[
+				"grp",
+				"grph.py"
+			],
 			[
 				"ip",
 				"iprb.py"
@@ -1019,6 +1281,18 @@
 		"selected_items":
 		[
 			[
+				"su",
+				"E:\\Enlistment\\DisplayMarketplace\\private\\SupplyForecasting\\SupplyForecasting.sublime-project"
+			],
+			[
+				"sup",
+				"E:\\Enlistment\\DisplayMarketplace\\private\\SupplyForecasting\\SupplyForecasting.sublime-project"
+			],
+			[
+				"supp",
+				"E:\\Enlistment\\DisplayMarketplace\\private\\SupplyForecasting\\SupplyForecasting.sublime-workspace"
+			],
+			[
 				"sub",
 				"C:\\Users\\cianm\\Documents\\SublimeProjects\\SublimeProjects.sublime-project"
 			],
@@ -1029,10 +1303,6 @@
 			[
 				"sco",
 				"C:\\Users\\cianm\\Documents\\Visual Studio 2012\\Projects\\ScopeProject\\ScopeProject.sublime-project"
-			],
-			[
-				"sup",
-				"E:\\Enlistment\\DisplayMarketplace\\private\\SupplyForecasting\\SupplyForecasting.sublime-project"
 			],
 			[
 				"Sup",
@@ -1053,6 +1323,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1060,7 +1331,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 305.0,
+	"side_bar_width": 184.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

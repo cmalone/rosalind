@@ -1,25 +1,4 @@
-from collections import namedtuple
-
-def read_fasta_records(filename):
-	"""Reads a file and returns an array of (id, dna) tuples"""
-	records = []
-	Record = namedtuple("Record", "Id Dna")
-	f = open(filename, 'r')
-
-	current_id = ""
-	current_dna = ""
-	for line in f:
-		if line.startswith(">"):
-			records.append(Record(strip(current_id), strip(current_dna)))
-			current_id = line[1:]
-			current_dna = ""
-		else:
-			current_dna += line
-	records.append(Record(strip(current_id), strip(current_dna)))
-	return records[1:]
-
-def strip(s):
-	return s.lstrip().rstrip().replace("\n", "")
+import fasta
 
 def consensus(profile):
 	cons_string = ""
@@ -39,19 +18,19 @@ def consensus(profile):
 def build_profile(records):
 	"""Builds a profile matrix from a set of (id, dna) records, where all dna strings are of the same length"""
 	profile_counts = {"A": [], "C": [], "G": [], "T":[]}
-	for i in range(0, len(records[0].Dna)):
+	for i in range(0, len(records[0].dna)):
 		profile_counts["A"].append(0)
 		profile_counts["C"].append(0)
 		profile_counts["G"].append(0)
 		profile_counts["T"].append(0)
 
-	for i in range(0, len(records[0].Dna)):
+	for i in range(0, len(records[0].dna)):
 		for j in range(0, len(records)):
-			profile_counts[records[j].Dna[i]][i] += 1
+			profile_counts[records[j].dna[i]][i] += 1
 
 	return profile_counts
 
-profile = build_profile(read_fasta_records("test_profile.txt"))
+profile = build_profile(fasta.FastaReader("test_profile.txt").records)
 print consensus(profile)
 for j in range(0, len(profile.items())):
 	print profile.items()[j][0] + ": " + str(profile.items()[j][1]).replace("[", "").replace(",", "").replace("]", "")
