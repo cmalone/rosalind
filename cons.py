@@ -30,7 +30,7 @@ def build_profile(records):
 
 	return profile_counts
 
-profile = build_profile(fasta.FastaReader("test_profile.txt").records)
+profile = build_profile(fasta.FastaReader.fromfilename("test_profile.txt").records)
 print consensus(profile)
 for j in range(0, len(profile.items())):
 	print profile.items()[j][0] + ": " + str(profile.items()[j][1]).replace("[", "").replace(",", "").replace("]", "")

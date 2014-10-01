@@ -6,17 +6,29 @@ class FastaRecord:
 
 class FastaReader:
 
-	def __init__(self, record_filename):
-		self.records = self.__read_fasta(record_filename)
+	def __init__(self, lines):
+		"""Initialize from a sequence of FASTA lines"""
+		self.records = self.__process_fasta_sequence(lines)
 
-	def __read_fasta(self, filename):
+	@classmethod
+	def fromfilename(cls, filename):
+		lines = []
+		f = open(filename, 'r')
+		for line in f:
+			lines.append(line)
+		return cls(lines)
+
+	@classmethod
+	def fromlines(cls, lines):
+		return cls(lines)
+
+	def __process_fasta_sequence(self, lines):
 		"""Reads a file and returns an array of (id, dna) tuples"""
 		records = []
-		f = open(filename, 'r')
 
 		current_id = ""
 		current_dna = ""
-		for line in f:
+		for line in lines:
 			if line.startswith(">"):
 				records.append(FastaRecord(self.__strip(current_id), self.__strip(current_dna)))
 				current_id = line[1:]
